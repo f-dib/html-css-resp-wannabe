@@ -43,7 +43,7 @@ img {
 
 /************************************************
     UTILITIES
- ************************************************/
+************************************************/
 
 /* LAYOUT */
 .container {
@@ -68,7 +68,7 @@ img {
 
 /************************************************
     SITE SECTIONS
- ************************************************/
+************************************************/
 
 /* HEADER */
 .site-header {
@@ -126,8 +126,8 @@ img {
 
 /************************************************
     SOLUZIONE RESPONSIVE
- ************************************************/
-/* versione mobile */
+************************************************/
+/* extra-small version */
 @media screen and (max-width: 480px){
     .container{
         width: 100%;
@@ -156,5 +156,19 @@ img {
         background-color: #222222;
         margin: 0;
         padding: 3rem 0;
+    }
+}
+
+/* medium version */
+@media screen and (max-width: 768px){
+    .container{
+        width: 100%;
+    }
+}
+
+/* large version */
+@media screen and (max-width: 1160px){
+    .container{
+        width: 100%;
     }
 }

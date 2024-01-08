@@ -129,15 +129,6 @@ img {
  ************************************************/
 /* versione mobile */
 @media screen and (max-width: 480px){
-    h1{
-        font-size: 3em;
-    }
-
-    h2, 
-    .text {
-        padding: 0 3rem;
-    }
-    
     .container{
         width: 100%;
     }
@@ -165,10 +156,5 @@ img {
         background-color: #222222;
         margin: 0;
         padding: 3rem 0;
-    }
-
-    .col-left,
-    .col-right{
-        padding: 0px 1rem;
     }
 }
